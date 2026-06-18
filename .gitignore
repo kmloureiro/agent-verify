@@ -1,0 +1,10 @@
+# local artifacts
+*.log
+.DS_Store
+__pycache__/
+*.pyc
+node_modules/
+.env
+.env.*
+# visual-regression artifacts live on disk, not in git by default
+/.verify-artifacts/
