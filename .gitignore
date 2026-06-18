@@ -8,3 +8,4 @@ node_modules/
 .env.*
 # visual-regression artifacts live on disk, not in git by default
 /.verify-artifacts/
+.playwright-mcp/

@@ -15,10 +15,12 @@ through an MCP server returns the page DOM, console logs, and screenshots into t
 context — thousands to tens of thousands of tokens **per check**. Most of what agents build
 (logic, data, API contracts, flows) never needed a browser to verify in the first place.
 
-Independent benchmarks have measured browser-MCP verification at **~114k tokens per test**
-versus **~27k** for a CLI approach. Anthropic's own "code execution with MCP" guidance shows
-filtering inside the sandbox and returning only the result taking a scenario from **150k → 2k
-tokens (~98.7%)**. The direction is consistent and large.
+**Measured:** on a small live page (`gyrls.app`), one browser snapshot + screenshot costs
+**~2,877 tokens** versus **~11** for a CLI `PASS`/`FAIL` — a **~260× difference**, and that's a
+conservative case (real app flows are bigger and multi-step). Independent benchmarks report
+browser-MCP test runs at **~114k tokens** vs **~27k** for a CLI approach, and Anthropic's "code
+execution with MCP" shows in-sandbox filtering taking a scenario from **150k → 2k (~98.7%)**.
+Full methodology and reproduction: [`benchmark/results.md`](benchmark/results.md).
 
 ## The idea
 

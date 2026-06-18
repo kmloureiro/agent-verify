@@ -1,0 +1,146 @@
+- generic [active] [ref=e1]:
+  - main [ref=e5]:
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - img "Gyrls" [ref=e9]
+        - paragraph [ref=e10]: Gym Girls
+      - generic [ref=e11]:
+        - generic [ref=e12]:
+          - generic [ref=e13]:
+            - generic [ref=e14]: Brevemente
+            - heading "GYRL, vamos treinar juntas?" [level=1] [ref=e15]
+            - paragraph [ref=e16]: No ginásio, em casa ou na rua. Onde treinas, encontras uma parceira.
+          - generic [ref=e18]:
+            - textbox "O teu nome" [ref=e19]
+            - textbox "O teu email" [ref=e20]
+            - combobox [ref=e21]:
+              - option "Onde treinas" [disabled] [selected]
+              - option "Ginásio"
+              - option "Casa"
+              - option "Rua ou parque"
+              - option "Studio (crossfit, pilates, yoga...)"
+            - combobox [ref=e22]:
+              - option "O teu distrito" [disabled] [selected]
+              - option "Aveiro"
+              - option "Beja"
+              - option "Braga"
+              - option "Bragança"
+              - option "Castelo Branco"
+              - option "Coimbra"
+              - option "Évora"
+              - option "Faro"
+              - option "Guarda"
+              - option "Leiria"
+              - option "Lisboa"
+              - option "Portalegre"
+              - option "Porto"
+              - option "Santarém"
+              - option "Setúbal"
+              - option "Viana do Castelo"
+              - option "Vila Real"
+              - option "Viseu"
+              - option "Açores"
+              - option "Madeira"
+              - option "Outro país"
+            - button "Entrar na lista de espera" [ref=e23]
+            - generic [ref=e24]:
+              - text: Junta-te à lista. Sem spam.
+              - button "política de privacidade" [ref=e25]
+        - generic [ref=e28]:
+          - generic [ref=e29]:
+            - generic [ref=e30]: GYRLS
+            - generic [ref=e31]: ●●●
+          - generic [ref=e32]:
+            - paragraph [ref=e33]: Match encontrado
+            - generic [ref=e34]:
+              - generic [ref=e35]:
+                - generic [ref=e37]: S
+                - generic [ref=e38]:
+                  - paragraph [ref=e39]: Sofia, 31
+                  - paragraph [ref=e40]: Em casa · Lisboa
+              - generic [ref=e41]:
+                - generic [ref=e42]: Ter Qui
+                - generic [ref=e43]: 07h–08h
+                - generic [ref=e44]: Pilates
+              - generic [ref=e45]:
+                - generic [ref=e46]: ◎
+                - generic [ref=e47]: 3 horários em comum
+              - generic [ref=e48]: Combinar treino
+    - generic [ref=e50]:
+      - heading "Porque é que funciona?" [level=2] [ref=e51]
+      - generic [ref=e52]:
+        - generic [ref=e53]:
+          - img [ref=e55]
+          - heading "Compromisso real" [level=3] [ref=e57]
+          - paragraph [ref=e58]: Quando alguém está à tua espera, cancelar deixa de ser uma opção.
+        - generic [ref=e59]:
+          - img [ref=e61]
+          - heading "Onde treinas, quando treinas" [level=3] [ref=e64]
+          - paragraph [ref=e65]: Matches com mulheres que treinam no mesmo sítio que tu, nos mesmos horários.
+        - generic [ref=e66]:
+          - img [ref=e68]
+          - heading "Só para mulheres" [level=3] [ref=e70]
+          - paragraph [ref=e71]: Espaço seguro e curado. A Gyrls é para mulheres, feita por uma mulher.
+    - blockquote [ref=e74]:
+      - paragraph [ref=e75]: “Hoje não me apetece treinar..., disse toda a gente, até ter alguém à espera.”
+      - generic [ref=e76]: A motivação muda quando não estás sozinha.
+    - generic [ref=e78]:
+      - heading "Pronta para começar?" [level=2] [ref=e79]
+      - paragraph [ref=e80]: Entra na lista de espera e sê das primeiras a experimentar.
+      - generic [ref=e81]:
+        - textbox "O teu nome" [ref=e82]
+        - textbox "O teu email" [ref=e83]
+        - combobox [ref=e84]:
+          - option "Onde treinas" [disabled] [selected]
+          - option "Ginásio"
+          - option "Casa"
+          - option "Rua ou parque"
+          - option "Studio (crossfit, pilates, yoga...)"
+        - combobox [ref=e85]:
+          - option "O teu distrito" [disabled] [selected]
+          - option "Aveiro"
+          - option "Beja"
+          - option "Braga"
+          - option "Bragança"
+          - option "Castelo Branco"
+          - option "Coimbra"
+          - option "Évora"
+          - option "Faro"
+          - option "Guarda"
+          - option "Leiria"
+          - option "Lisboa"
+          - option "Portalegre"
+          - option "Porto"
+          - option "Santarém"
+          - option "Setúbal"
+          - option "Viana do Castelo"
+          - option "Vila Real"
+          - option "Viseu"
+          - option "Açores"
+          - option "Madeira"
+          - option "Outro país"
+        - button "Entrar na lista de espera" [ref=e86]
+        - generic [ref=e87]:
+          - text: Junta-te à lista. Sem spam.
+          - button "política de privacidade" [ref=e88]
+    - generic [ref=e90]:
+      - generic [ref=e91]:
+        - generic [ref=e92]: Segue-nos
+        - link "TikTok @gyrls.app" [ref=e93] [cursor=pointer]:
+          - /url: https://www.tiktok.com/@gyrls.app
+          - img [ref=e94]
+          - generic [ref=e96]: "@gyrls.app"
+        - link "Instagram @gyrls.app" [ref=e97] [cursor=pointer]:
+          - /url: https://www.instagram.com/gyrls.app
+          - img [ref=e98]
+          - generic [ref=e101]: "@gyrls.app"
+      - generic [ref=e102]:
+        - paragraph [ref=e103]: © 2026 Gyrls™ · gyrls.app
+        - navigation [ref=e104]:
+          - link "Privacidade" [ref=e105] [cursor=pointer]:
+            - /url: /privacidade
+          - link "Termos" [ref=e106] [cursor=pointer]:
+            - /url: /termos
+          - generic [ref=e107]: Entrar (Brevemente)
+  - region "Notifications alt+T"
+  - alert [ref=e4]
