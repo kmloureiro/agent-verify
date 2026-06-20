@@ -1,7 +1,7 @@
 ---
 name: agent-verify
 description: This skill should be used when building or changing a feature in an app, API, or site and you want to verify it works WITHOUT burning tokens on browser automation, screenshots, or DOM dumps. Use it to generate a token-minimal CLI verification harness alongside each feature, run checks in a sandbox, and surface only PASS/FAIL + the failing line. Triggers on "verify this works", "test this feature", "did the change break anything", "check the endpoint", "add tests", or any agent self-verification loop. Browser/visual checks are the fallback of last resort, only for genuinely visual UI, and only at the end.
-version: 1.0.0
+version: 1.1.0
 ---
 
 # agent-verify
@@ -52,7 +52,7 @@ Only for genuinely visual UI (layout, styling, visual regression) and only at th
 - `scripts/detect-stack.sh` — prints stack + runner, token-minimal.
 - `scripts/verify.sh` — runs mapped checks, emits only PASS/FAIL + failing line.
 - `VERIFICATION_MAP.md` — the short feature→command map (the agent maintains it).
-- `reference/stacks/` — copy-paste recipes: FastAPI (in-process TestClient), Supabase (seed + reset + pgTAP), Next.js (route handlers + last-resort visual).
+- `reference/stacks/` — copy-paste recipes: FastAPI (in-process TestClient), Supabase (seed + reset + pgTAP), Next.js (route handlers + last-resort visual), SvelteKit (load/actions/+server + RLS rolled back, Playwright CLI last).
 - `reference/patterns.md` — token-minimal verification patterns + the evidence behind them.
 - `reference/anti-patterns.md` — flaky tests, false PASS, over-engineering guards.
 - `templates/` — starting points for the map, a FastAPI test, a Supabase seed.

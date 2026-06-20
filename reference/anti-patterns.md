@@ -32,3 +32,11 @@ The failure mode this skill exists to prevent.
 - Every feature line must point at a command that exists and runs.
 - Remove checks for deleted features.
 - Keep it short. Long maps degrade agent performance (see patterns.md).
+
+## Coverage freeze
+If new code isn't *structured* to be cheaply checkable, the map silently stops covering new work
+and the skill's win decays to whatever existed at the start. Symptom: weeks pass, the app grows,
+the map doesn't.
+- When you build, extract logic into callable modules, keep stable selectors, and put writes
+  behind assertable units (RPC/endpoint), so a cheap check is always possible.
+- The check is cheap only if the code was built to allow it.

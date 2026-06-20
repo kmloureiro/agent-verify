@@ -21,6 +21,7 @@ fi
 # --- Node / JS ---
 if [ -f package.json ]; then
   if grep -qs '"next"' package.json; then say "node: next.js (route handlers cheap; visual = last resort — reference/stacks/nextjs.md)"; fi
+  if grep -qs '"@sveltejs/kit"' package.json; then say "node: sveltekit (load/actions/+server cheap; e2e via Playwright CLI not browser MCP — reference/stacks/sveltekit.md)"; fi
   if grep -qs '"vitest"' package.json; then say "runner: vitest run --reporter=dot"; fi
   if grep -qs '"jest"' package.json;   then say "runner: jest --silent"; fi
   if grep -qs '"playwright"' package.json; then say "browser: playwright present (visual only, end only)"; fi

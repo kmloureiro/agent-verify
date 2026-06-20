@@ -67,7 +67,7 @@ It also works as a plain repo any agent can read — point your agent at `SKILL.
 2. Build a feature.
 3. Add one token-minimal check using your stack's primitive
    ([FastAPI](reference/stacks/fastapi.md) · [Supabase](reference/stacks/supabase.md) ·
-   [Next.js](reference/stacks/nextjs.md)).
+   [Next.js](reference/stacks/nextjs.md) · [SvelteKit](reference/stacks/sveltekit.md)).
 4. Append one line to `VERIFICATION_MAP.md`.
 5. `bash scripts/verify.sh [feature]` — read only `PASS`/`FAIL`.
 
@@ -82,7 +82,8 @@ Browser checks are the fallback of last resort — visual UI only, at the end, v
 ## Stacks with recipes in v1
 
 FastAPI (in-process `TestClient`) · Supabase (seed + `db reset` + pgTAP) · Next.js (route
-handlers; visual as last resort). The pattern generalizes to any language with a CLI test runner.
+handlers; visual as last resort) · SvelteKit (load/actions/`+server` + RLS rolled back; Playwright
+CLI last). The pattern generalizes to any language with a CLI test runner.
 
 ## License
 
